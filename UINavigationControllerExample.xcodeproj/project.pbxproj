@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1B067D4B20583727005CD630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D4A20583727005CD630 /* AppDelegate.swift */; };
-		1B067D4D20583727005CD630 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D4C20583727005CD630 /* ViewController.swift */; };
 		1B067D5020583727005CD630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B067D4E20583727005CD630 /* Main.storyboard */; };
 		1B067D5220583727005CD630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B067D5120583727005CD630 /* Assets.xcassets */; };
 		1B067D5520583727005CD630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B067D5320583727005CD630 /* LaunchScreen.storyboard */; };
+		1B067D5D20584896005CD630 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D5C20584896005CD630 /* LoginViewController.swift */; };
+		1B067D5F205848A0005CD630 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D5E205848A0005CD630 /* HomeViewController.swift */; };
+		1B067D6120584901005CD630 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D6020584901005CD630 /* NewViewController.swift */; };
+		1B067D632058493A005CD630 /* PopularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D622058493A005CD630 /* PopularViewController.swift */; };
+		1B067D65205849A8005CD630 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D64205849A8005CD630 /* FeatureViewController.swift */; };
+		1B067D67205849BE005CD630 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D66205849BE005CD630 /* AccountViewController.swift */; };
+		1B067D69205849D7005CD630 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D68205849D7005CD630 /* AboutViewController.swift */; };
+		1B067D6B205849F6005CD630 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B067D6A205849F6005CD630 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B067D4720583727005CD630 /* UINavigationControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigationControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B067D4A20583727005CD630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B067D4C20583727005CD630 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B067D4F20583727005CD630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B067D5120583727005CD630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B067D5420583727005CD630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B067D5620583727005CD630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B067D5C20584896005CD630 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1B067D5E205848A0005CD630 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1B067D6020584901005CD630 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		1B067D622058493A005CD630 /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
+		1B067D64205849A8005CD630 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		1B067D66205849BE005CD630 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1B067D68205849D7005CD630 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1B067D6A205849F6005CD630 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				1B067D4A20583727005CD630 /* AppDelegate.swift */,
-				1B067D4C20583727005CD630 /* ViewController.swift */,
 				1B067D4E20583727005CD630 /* Main.storyboard */,
 				1B067D5120583727005CD630 /* Assets.xcassets */,
 				1B067D5320583727005CD630 /* LaunchScreen.storyboard */,
 				1B067D5620583727005CD630 /* Info.plist */,
+				1B067D5C20584896005CD630 /* LoginViewController.swift */,
+				1B067D5E205848A0005CD630 /* HomeViewController.swift */,
+				1B067D6020584901005CD630 /* NewViewController.swift */,
+				1B067D622058493A005CD630 /* PopularViewController.swift */,
+				1B067D64205849A8005CD630 /* FeatureViewController.swift */,
+				1B067D66205849BE005CD630 /* AccountViewController.swift */,
+				1B067D68205849D7005CD630 /* AboutViewController.swift */,
+				1B067D6A205849F6005CD630 /* ContactViewController.swift */,
 			);
 			path = UINavigationControllerExample;
 			sourceTree = "<group>";
@@ -136,8 +157,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B067D4D20583727005CD630 /* ViewController.swift in Sources */,
+				1B067D632058493A005CD630 /* PopularViewController.swift in Sources */,
+				1B067D65205849A8005CD630 /* FeatureViewController.swift in Sources */,
+				1B067D67205849BE005CD630 /* AccountViewController.swift in Sources */,
+				1B067D69205849D7005CD630 /* AboutViewController.swift in Sources */,
+				1B067D5D20584896005CD630 /* LoginViewController.swift in Sources */,
+				1B067D6120584901005CD630 /* NewViewController.swift in Sources */,
 				1B067D4B20583727005CD630 /* AppDelegate.swift in Sources */,
+				1B067D5F205848A0005CD630 /* HomeViewController.swift in Sources */,
+				1B067D6B205849F6005CD630 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
